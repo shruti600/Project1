@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="web.css">
+</head>
+<body style="background-color: #ccffff;">
+	<!--<h4 style="font-size: 25px;text-align: center"><strong><u>Login to your account</u></strong></h4>
+	
+	<div class="login_admin">
+	
+	<form >
+		<table width="500px" height="250px" align="center" >
+			
+			<tr>
+			<th width="200px" align="right" required="required">Username:</th><th width="300px" align="left"><input type="text" name="uname" /></th>
+			</tr>
+			<tr>
+			<th width="200px" align="right" required="required">Password:</th><th width="300px" align="left"><input type="password" name="password" /></th>
+			</tr>
+			<tr>
+			<th colspan="2"><input type="submit" value="Submit" onclick="myfunction()" /></th>
+			</tr>
+			<tr>
+			<th align="right"><a href="forgot(admin).php" style="text-decoration:none;color:#003366;font-size:13px;font-family:'Arial Narrow', Arial, Helvetica, sans-serif">Forgot Password</a></th>
+			<th align="center"><a href="password(admin).php" style="text-decoration:none;color:#003366;font-size:13px;font-family:'Arial Narrow', Arial, Helvetica, sans-serif;margin-left:30px">Change Password</a></th>
+			</tr>
+		</table>
+	</form>
+	
+	</div>-->
+	<div class="login-main" style="width: 500px">
+
+		<div class="log-2"><h3 style="font-size: 30px;align-items:center">Login to your account</h3></div>
+		<div class="login-h">
+			<div class="log-1">
+				<div><p>Username</p></div>
+				<div><input type="text" style="width: 180px;height: 32px;margin-top: 22px" name="username" required="required"></div>
+			</div>
+			<div class="log-1">
+				<div><p>Password</p></div>
+				<div><input type="text" style="width: 180px;height: 32px;margin-top: 22px" name="password" required="required"></div>
+			</div>
+			<div class="log-1">
+				<p>Role</p>
+				<select name="option" style="width: 180px;height: 32px;margin-top: 22px;margin-left: 45px">
+				  <option value="" disabled selected>Choose your option</option>
+				  <option value="1">Student</option>
+				  <option value="2">Faculty</option>
+				</select>
+			</div>
+			<br>
+			<div class="log-2">
+				<button  style="width: 150px;height: 35px;border-radius: 8px;font-size: 20px" onclick="myfunction()">Submit</button>
+			</div>
+			<br>
+			<div class="log-3">
+				<button><a href="#" style="text-decoration:none;color: black;font-size: 15px">Change Password</a></button>
+				<button><a href="#" style="text-decoration:none;color: black;font-size: 15px">Forgot Password</a></button>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		function myfunction(){
+			alert("You're logged in");
+		}
+	</script>
+
+</body>
+</html>
